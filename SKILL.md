@@ -1,20 +1,20 @@
 ---
 name: Agentic Workflow Designer
 description: >
-  AI-powered agentic workflow design and automation assistant â€” map complex multi-step
+  AI-powered agentic workflow design and automation assistant ¡ª map complex multi-step
   processes, identify automation opportunities, design autonomous AI agent pipelines,
   generate n8n/Make/Zapier workflow specs, and estimate ROI. Covers enterprise automation,
   self-healing workflows, human-in-the-loop patterns, and production deployment. Keywords:
   agentic workflow, workflow automation, n8n, Make, Zapier, enterprise automation,
   AI pipeline, autonomous agent, process automation, workflow design, ROI calculator,
-  HITL, å·¥ä½œæµè®¾è®¡, æµç¨‹è‡ªåŠ¨åŒ–, æ™ºèƒ½ä½“å·¥ä½œæµ, ä¼ä¸šè‡ªåŠ¨åŒ–, n8nå·¥ä½œæµ, æµç¨‹ä¼˜åŒ–,
-  è‡ªä¸»ä»£ç†, RPAæ›¿ä»£.
+  HITL, ¹¤×÷Á÷Éè¼Æ, Á÷³Ì×Ô¶¯»¯, ÖÇÄÜÌå¹¤×÷Á÷, ÆóÒµ×Ô¶¯»¯, n8n¹¤×÷Á÷, Á÷³ÌÓÅ»¯,
+  ×ÔÖ÷´úÀí, RPAÌæ´ú.
 version: "3.2.0"
 ---
 
 # Agentic Workflow Designer
 
-> From messy manual processes to autonomous AI pipelines â€” design, document, and deploy.
+> From messy manual processes to autonomous AI pipelines ¡ª design, document, and deploy.
 
 ## What This Skill Does
 
@@ -26,16 +26,16 @@ Agentic AI (AI that can autonomously execute multi-step tasks) is the #1 enterpr
 
 This skill bridges the gap between AI hype and practical workflow automation:
 
-- **Workflow Discovery** â€” Identify and prioritize automation opportunities in any business process
-- **Agentic Pipeline Design** â€” Create detailed workflow blueprints with triggers, agents, tools, and fallbacks
-- **Platform Selection** â€” Compare n8n / Make / Zapier / custom LangGraph for your use case
-- **Generate Workflow Specs** â€” Produce JSON/YAML specs importable into n8n or Make
-- **ROI Calculator** â€” Estimate time/cost savings from automation
-- **Human-in-the-Loop (HITL) Design** â€” Design appropriate checkpoints for sensitive decisions
+- **Workflow Discovery** ¡ª Identify and prioritize automation opportunities in any business process
+- **Agentic Pipeline Design** ¡ª Create detailed workflow blueprints with triggers, agents, tools, and fallbacks
+- **Platform Selection** ¡ª Compare n8n / Make / Zapier / custom LangGraph for your use case
+- **Generate Workflow Specs** ¡ª Produce JSON/YAML specs importable into n8n or Make
+- **ROI Calculator** ¡ª Estimate time/cost savings from automation
+- **Human-in-the-Loop (HITL) Design** ¡ª Design appropriate checkpoints for sensitive decisions
 
 ## Trigger Words
 
-Agentic workflow, automate my process, workflow automation, n8n, Make automation, Zapier flow, design a workflow, workflow design, process automation, automate with AI, AI pipeline, autonomous workflow, HITL pattern, å·¥ä½œæµè®¾è®¡, è‡ªåŠ¨åŒ–å·¥ä½œæµ, æµç¨‹è‡ªåŠ¨åŒ–, æ™ºèƒ½ä½“å·¥ä½œæµ, å¸®æˆ‘è®¾è®¡æµç¨‹, è‡ªåŠ¨åŒ–è¿™ä¸ªæµç¨‹, n8nå·¥ä½œæµ, ä¼ä¸šè‡ªåŠ¨åŒ–, RPAæ›¿ä»£, agentic AI pipeline
+Agentic workflow, automate my process, workflow automation, n8n, Make automation, Zapier flow, design a workflow, workflow design, process automation, automate with AI, AI pipeline, autonomous workflow, HITL pattern, ¹¤×÷Á÷Éè¼Æ, ×Ô¶¯»¯¹¤×÷Á÷, Á÷³Ì×Ô¶¯»¯, ÖÇÄÜÌå¹¤×÷Á÷, °ïÎÒÉè¼ÆÁ÷³Ì, ×Ô¶¯»¯Õâ¸öÁ÷³Ì, n8n¹¤×÷Á÷, ÆóÒµ×Ô¶¯»¯, RPAÌæ´ú, agentic AI pipeline
 
 ## Target Users
 
@@ -47,27 +47,17 @@ Agentic workflow, automate my process, workflow automation, n8n, Make automation
 
 ## Workflow
 
-### æ–°å¢žå†…å®¹ï¼ˆ2026ç‰ˆï¼‰
-**Step 2 æ–°å¢žæŠ€æœ¯è¯„ä¼°ï¼ˆ2026ï¼‰**ï¼š
-- LangGraph v1.0ç”Ÿäº§å°±ç»ªï¼šçŠ¶æ€æœºå·¥ä½œæµ/é•¿æœŸè®°å¿†/é”™è¯¯æ¢å¤ä¸‰å¤§æ ¸å¿ƒèƒ½åŠ›ï¼Œä¼ä¸šçº§éƒ¨ç½²æ”¯æŒKubernetesè‡ªåŠ¨æ‰©ç¼©å®¹ï¼ŒGitHub Starsçªç ´85K
-- CrewAI v1.10å¤šæ™ºèƒ½ä½“åä½œï¼šæ”¯æŒ6ç§è§’è‰²ç±»åž‹+å¹¶è¡Œä»»åŠ¡ç¼–æŽ’ï¼Œå†…ç½®20+ä¼ä¸šçº§è¿žæŽ¥å™¨ï¼ˆSlack/Notion/Airtable/GitHubï¼‰ï¼Œ2026å¹´Q1æ–°å¢žä¸­æ–‡æ–‡æ¡£
-- Claude Agent SDK / OpenAI Agents SDKæ¨ªå‘å¯¹æ¯”ï¼šå·¥å…·è°ƒç”¨å‡†ç¡®çŽ‡(94% vs 91%)/ä¸Šä¸‹æ–‡åˆ©ç”¨çŽ‡(78% vs 82%)/æˆæœ¬æ•ˆçŽ‡(Â¥0.8/åƒToken vs Â¥1.2/åƒToken)ä¸‰å¤§ç»´åº¦å…¨é¢è¯„æµ‹
-- MCP(Model Context Protocol)ç”Ÿæ€çˆ†å‘ï¼š50+å®˜æ–¹æœåŠ¡å™¨è¦†ç›–GitHub/Slack/Notion/Postgresç­‰ï¼Œä¼ä¸šå†…éƒ¨MCPæ³¨å†Œè¡¨æˆä¸ºæ–°åŸºç¡€è®¾æ–½
-- LLMé•¿ä¸Šä¸‹æ–‡ä¹‹æˆ˜ï¼šGemini 2M Token / Claude 200K / GPT-4o 128KæŠ€æœ¯é€‰åž‹æŒ‡å—ï¼Œé’ˆå¯¹é‡‘èžé•¿æ–‡æ¡£(æ‹›è‚¡ä¹¦/å¹´æŠ¥)åœºæ™¯ç»™å‡ºæœ€ä¼˜æ€§ä»·æ¯”æ–¹æ¡ˆ
+### ÐÂÔöÄÚÈÝ£¨2026°æ£©
+**Step 2 ÐÂÔö¼¼ÊõÆÀ¹À£¨2026£©**£º
+- LangGraph v1.0Éú²ú¾ÍÐ÷£º×´Ì¬»ú¹¤×÷Á÷/³¤ÆÚ¼ÇÒä/´íÎó»Ö¸´Èý´óºËÐÄÄÜÁ¦£¬ÆóÒµ¼¶²¿ÊðÖ§³ÖKubernetes×Ô¶¯À©ËõÈÝ£¬GitHub StarsÍ»ÆÆ85K
+- CrewAI v1.10¶àÖÇÄÜÌåÐ­×÷£ºÖ§³Ö6ÖÖ½ÇÉ«ÀàÐÍ+²¢ÐÐÈÎÎñ±àÅÅ£¬ÄÚÖÃ20+ÆóÒµ¼¶Á¬½ÓÆ÷£¨Slack/Notion/Airtable/GitHub£©£¬2026ÄêQ1ÐÂÔöÖÐÎÄÎÄµµ
+- Claude Agent SDK / OpenAI Agents SDKºáÏò¶Ô±È£º¹¤¾ßµ÷ÓÃ×¼È·ÂÊ(94% vs 91%)/ÉÏÏÂÎÄÀûÓÃÂÊ(78% vs 82%)/³É±¾Ð§ÂÊ(£¤0.8/Ç§Token vs £¤1.2/Ç§Token)Èý´óÎ¬¶ÈÈ«ÃæÆÀ²â
+- MCP(Model Context Protocol)ÉúÌ¬±¬·¢£º50+¹Ù·½·þÎñÆ÷¸²¸ÇGitHub/Slack/Notion/PostgresµÈ£¬ÆóÒµÄÚ²¿MCP×¢²á±í³ÉÎªÐÂ»ù´¡ÉèÊ©
+- LLM³¤ÉÏÏÂÎÄÖ®Õ½£ºGemini 2M Token / Claude 200K / GPT-4o 128K¼¼ÊõÑ¡ÐÍÖ¸ÄÏ£¬Õë¶Ô½ðÈÚ³¤ÎÄµµ(ÕÐ¹ÉÊé/Äê±¨)³¡¾°¸ø³ö×îÓÅÐÔ¼Û±È·½°¸
 
 ---
 
-## æ–°å¢žå†…å®¹ï¼ˆ2026ç‰ˆï¼‰
-**Step 2 æ–°å¢žæŠ€æœ¯è¯„ä¼°ï¼ˆ2026ï¼‰**ï¼š
-- LangGraph v1.0ç”Ÿäº§å°±ç»ªï¼šçŠ¶æ€æœºå·¥ä½œæµ/é•¿æœŸè®°å¿†/é”™è¯¯æ¢å¤ä¸‰å¤§æ ¸å¿ƒèƒ½åŠ›ï¼Œä¼ä¸šçº§éƒ¨ç½²æ”¯æŒKubernetesè‡ªåŠ¨æ‰©ç¼©å®¹ï¼ŒGitHub Starsçªç ´85K
-- CrewAI v1.10å¤šæ™ºèƒ½ä½“åä½œï¼šæ”¯æŒ6ç§è§’è‰²ç±»åž‹+å¹¶è¡Œä»»åŠ¡ç¼–æŽ’ï¼Œå†…ç½®20+ä¼ä¸šçº§è¿žæŽ¥å™¨ï¼ˆSlack/Notion/Airtable/GitHubï¼‰ï¼Œ2026å¹´Q1æ–°å¢žä¸­æ–‡æ–‡æ¡£
-- Claude Agent SDK / OpenAI Agents SDKæ¨ªå‘å¯¹æ¯”ï¼šå·¥å…·è°ƒç”¨å‡†ç¡®çŽ‡(94% vs 91%)/ä¸Šä¸‹æ–‡åˆ©ç”¨çŽ‡(78% vs 82%)/æˆæœ¬æ•ˆçŽ‡(Â¥0.8/åƒToken vs Â¥1.2/åƒToken)ä¸‰å¤§ç»´åº¦å…¨é¢è¯„æµ‹
-- MCP(Model Context Protocol)ç”Ÿæ€çˆ†å‘ï¼š50+å®˜æ–¹æœåŠ¡å™¨è¦†ç›–GitHub/Slack/Notion/Postgresç­‰ï¼Œä¼ä¸šå†…éƒ¨MCPæ³¨å†Œè¡¨æˆä¸ºæ–°åŸºç¡€è®¾æ–½
-- LLMé•¿ä¸Šä¸‹æ–‡ä¹‹æˆ˜ï¼šGemini 2M Token / Claude 200K / GPT-4o 128KæŠ€æœ¯é€‰åž‹æŒ‡å—ï¼Œé’ˆå¯¹é‡‘èžé•¿æ–‡æ¡£(æ‹›è‚¡ä¹¦/å¹´æŠ¥)åœºæ™¯ç»™å‡ºæœ€ä¼˜æ€§ä»·æ¯”æ–¹æ¡ˆ
-
----
-
-## Step 1 â€” Process Discovery
+## Step 1 ¡ª Process Discovery
 Ask the user to describe their current workflow:
 - What triggers it? (email, schedule, webhook, human action?)
 - What are the key steps? (list them in plain language)
@@ -75,7 +65,7 @@ Ask the user to describe their current workflow:
 - Where do errors/delays typically occur?
 - What's the desired output/outcome?
 
-### Step 2 â€” Automation Suitability Assessment
+### Step 2 ¡ª Automation Suitability Assessment
 
 Score the workflow across 5 dimensions:
 
@@ -86,52 +76,72 @@ Score the workflow across 5 dimensions:
 | Data availability | /10 | Is input data structured and accessible? |
 | Error tolerance | /10 | Can errors be caught and recovered automatically? |
 | Stakes | /10 (inverted) | Low-stakes = easier to automate |
-| **Automation Score** | /50 | >35 = High priority, 20â€“35 = Medium, <20 = Keep manual |
+| **Automation Score** | /50 | >35 = High priority, 20¨C35 = Medium, <20 = Keep manual |
 
-### Step 3 â€” Agentic Pipeline Design
+### Step 3 ¡ª Agentic Pipeline Design
 Generate a detailed pipeline blueprint:
 
 ```
-ðŸŽ¯ Workflow: [Name]
-âš¡ Trigger: [webhook / cron / event / manual]
-ðŸ¤– Agents:
-  â”œâ”€â”€ Agent 1 [Role]: [Tool 1, Tool 2] â†’ Output: [description]
-  â”œâ”€â”€ Agent 2 [Role]: [Tool 3] â†’ Output: [description]
-  â””â”€â”€ Agent 3 [Role]: [Tool 4, Tool 5] â†’ Output: [description]
-ðŸ”„ Flow: Sequential / Parallel / Conditional
-ðŸ§  Memory: [ephemeral / Redis / vector DB]
-ðŸš¨ Error Handling: [retry / fallback agent / human escalation]
-ðŸ‘¤ HITL Checkpoints: [list high-stakes decision points]
-ðŸ“Š Output: [final deliverable description]
+?? Workflow: [Name]
+? Trigger: [webhook / cron / event / manual]
+?? Agents:
+  ©À©¤©¤ Agent 1 [Role]: [Tool 1, Tool 2] ¡ú Output: [description]
+  ©À©¤©¤ Agent 2 [Role]: [Tool 3] ¡ú Output: [description]
+  ©¸©¤©¤ Agent 3 [Role]: [Tool 4, Tool 5] ¡ú Output: [description]
+?? Flow: Sequential / Parallel / Conditional
+?? Memory: [ephemeral / Redis / vector DB]
+?? Error Handling: [retry / fallback agent / human escalation]
+?? HITL Checkpoints: [list high-stakes decision points]
+?? Output: [final deliverable description]
 ```
 
-**Example â€” Lead Qualification Pipeline:**
+**Example ¡ª Lead Qualification Pipeline:**
 ```
-ðŸŽ¯ Workflow: B2B Lead Qualification & Outreach
-âš¡ Trigger: New form submission webhook
-ðŸ¤– Agents:
-  â”œâ”€â”€ Enrichment Agent [Clearbit + LinkedIn scraper] â†’ Company profile JSON
-  â”œâ”€â”€ Scoring Agent [GPT-4o] â†’ Lead score (0â€“100) + reasoning
-  â”œâ”€â”€ Decision Gate [Human] â†’ Approve for outreach? (HITL)
-  â””â”€â”€ Outreach Agent [Email API + CRM API] â†’ Personalized email + CRM update
-ðŸ”„ Flow: Sequential with HITL gate
-ðŸ§  Memory: PostgreSQL (lead history)
-ðŸš¨ Error: Retry enrichment 3x â†’ flag for manual review
-ðŸ‘¤ HITL: Score > 80 auto-approves; 50â€“80 requires human review; <50 auto-rejects
-ðŸ“Š Output: CRM updated + email queued
+?? Workflow: B2B Lead Qualification & Outreach
+? Trigger: New form submission webhook
+?? Agents:
+  ©À©¤©¤ Enrichment Agent [Clearbit + LinkedIn scraper] ¡ú Company profile JSON
+  ©À©¤©¤ Scoring Agent [GPT-4o] ¡ú Lead score (0¨C100) + reasoning
+  ©À©¤©¤ Decision Gate [Human] ¡ú Approve for outreach? (HITL)
+  ©¸©¤©¤ Outreach Agent [Email API + CRM API] ¡ú Personalized email + CRM update
+?? Flow: Sequential with HITL gate
+?? Memory: PostgreSQL (lead history)
+?? Error: Retry enrichment 3x ¡ú flag for manual review
+?? HITL: Score > 80 auto-approves; 50¨C80 requires human review; <50 auto-rejects
+?? Output: CRM updated + email queued
 ```
 
-### Step 4 â€” Platform Recommendation
+### Step 4 ¡ª Platform Recommendation
 
 | Platform | Best For | Agent Support | Self-host | Price |
 |----------|----------|--------------|-----------|-------|
-| n8n | Technical teams, complex logic | âœ… via AI nodes | âœ… Yes | Free/OSS |
-| Make (Integromat) | Non-technical, API integrations | Partial | âŒ No | ~$9+/mo |
-| Zapier | Simple triggers, non-technical | Partial | âŒ No | ~$20+/mo |
-| LangGraph (custom) | Complex state machines, production | âœ… Native | âœ… Yes | Dev hours |
-| CrewAI | Role-based agent teams | âœ… Native | âœ… Yes | Dev hours |
+| n8n | Technical teams, complex logic | ? via AI nodes | ? Yes | Free/OSS |
+| Make (Integromat) | Non-technical, API integrations | Partial | ? No | ~$9+/mo |
+| Zapier | Simple triggers, non-technical | Partial | ? No | ~$20+/mo |
+| LangGraph (custom) | Complex state machines, production | ? Native | ? Yes | Dev hours |
+| CrewAI | Role-based agent teams | ? Native | ? Yes | Dev hours |
 
-### Step 5 â€” n8n Workflow JSON Spec (Sample Output)
+
+### Step 4.5 ¡ª 2026Æ½Ì¨ÏêÏ¸¶Ô±È±í£¨Éú²úÑ¡ÐÍ²Î¿¼£©
+
+| Î¬¶È | n8n (v1.90) | Make (2026) | Zapier (2026) | LangGraph | CrewAI |
+|------|--------------|-------------|---------------|-----------|--------|
+| **AI½Úµã** | ? Ô­ÉúAI½Úµã£¨OpenAI/Claude/±¾µØLLM£© | ?? ÐèÍ¨¹ýHTTP½Úµãµ÷ÓÃ | ?? ÐèÍ¨¹ýCode½Úµãµ÷ÓÃ | ? Ô­Éú | ? Ô­Éú |
+| **¶¨¼Û£¨ÔÂ£©** | Ãâ·Ñ£¨OSS£©/ /ÔÂ£¨Cloud Pro£© | /ÔÂ£¨Core£©~/ÔÂ£¨Enterprise£© | /ÔÂ£¨Starter£©~/ÔÂ£¨Company£© | Dev³É±¾ | Dev³É±¾ |
+| **×ÔÍÐ¹Ü** | ? DockerÒ»¼ü²¿Êð | ? ½öSaaS | ? ½öSaaS | ? | ? |
+| **ÆóÒµÁ¬½ÓÆ÷** | 400+£¨º¬¹úÄÚ¶¤¶¤/ÆóÎ¢£© | 1000+£¨Æ«º£Íâ£© | 6000+£¨È«Çò×î¶à£© | ×Ô½Ó | ×Ô½Ó |
+| **ÊÊºÏ³¡¾°** | ¼¼ÊõÑÐ·¢/¸´ÔÓÂß¼­/Êý¾ÝÃô¸Ð | ·Ç¼¼Êõ/¿ç²¿ÃÅ/¿ìËÙÔ­ÐÍ | ÏúÊÛ/ÊÐ³¡/¼òµ¥×Ô¶¯»¯ | ¸´ÔÓ×´Ì¬»ú/Éú²ú¼¶ | ½ÇÉ«Ð­×÷/ÑÐ¾¿·ÖÎö |
+| **×î´ó¶Ì°å** | Ñ§Ï°ÇúÏß¶¸ÇÍ | ¹úÄÚSaaS·ÃÎÊÂý | ¹úÄÚSaaS·ÃÎÊÂý+¹ó | Ðè¿ª·¢×ÊÔ´ | Ðè¿ª·¢×ÊÔ´ |
+
+**Ñ¡ÐÍ½¨Òé£¨2026£©**£º
+- ¹úÄÚÍÅ¶Ó/Êý¾ÝºÏ¹æÒªÇó ¡ú **n8n×ÔÍÐ¹Ü**£¨Êý¾Ý²»³ö¾³£¬Ö§³Ö¹ú²úLLM½ÓÈë£©
+- º£ÍâÒµÎñ/·Ç¼¼ÊõÍÅ¶Ó ¡ú **Make**£¨1000+Á¬½ÓÆ÷£¬Ñ§Ï°³É±¾µÍ£©
+- ¼òµ¥³¡¾°/ÏúÊÛÍÅ¶Ó ¡ú **Zapier**£¨¼´¿ª¼´ÓÃ£¬µ«³¤ÆÚ³É±¾¸ß£©
+- ¸´ÔÓAI¹ÜÏß/Éú²ú²¿Êð ¡ú **LangGraph**£¨×´Ì¬³Ö¾Ã»¯£¬Ö§³ÖHuman-in-the-Loop£©
+- ¶à½ÇÉ«Ð­×÷/ÑÐ¾¿·ÖÎö ¡ú **CrewAI**£¨½ÇÉ«·Ö¹¤ÇåÎú£¬2026ÄêÖÐÎÄÎÄµµÍêÉÆ£©
+
+---
+### Step 5 ¡ª n8n Workflow JSON Spec (Sample Output)
 ```json
 {
   "name": "Lead Qualification Pipeline",
@@ -163,22 +173,22 @@ Generate a detailed pipeline blueprint:
 }
 ```
 
-### Step 6 â€” ROI Calculator
+### Step 6 ¡ª ROI Calculator
 
 | Metric | Before Automation | After Automation | Savings |
 |--------|------------------|-----------------|---------|
 | Time per run | [X hours] | [Y minutes] | [Z%] |
-| Runs per week | [N] | [N] | â€” |
-| Total time saved/week | â€” | â€” | [hours] |
-| Cost saved/month | â€” | â€” | [$$$] |
-| Automation setup cost | â€” | â€” | [one-time] |
-| **Payback period** | â€” | â€” | [weeks] |
+| Runs per week | [N] | [N] | ¡ª |
+| Total time saved/week | ¡ª | ¡ª | [hours] |
+| Cost saved/month | ¡ª | ¡ª | [$$$] |
+| Automation setup cost | ¡ª | ¡ª | [one-time] |
+| **Payback period** | ¡ª | ¡ª | [weeks] |
 
 ## Example Interactions
 
 **User:** "I spend 3 hours every Monday pulling sales data from 5 spreadsheets, writing a summary email, and updating our CRM. Can this be automated?"
 
-**Skill response:** Scores the workflow (42/50 â€” High priority), designs a 4-agent pipeline (data collector â†’ analyzer â†’ email writer â†’ CRM updater), recommends n8n as the platform (self-hostable, native AI nodes), generates a complete n8n JSON spec, and estimates 11.5 hours/month saved = ~$580 value at $50/hr.
+**Skill response:** Scores the workflow (42/50 ¡ª High priority), designs a 4-agent pipeline (data collector ¡ú analyzer ¡ú email writer ¡ú CRM updater), recommends n8n as the platform (self-hostable, native AI nodes), generates a complete n8n JSON spec, and estimates 11.5 hours/month saved = ~$580 value at $50/hr.
 
 ---
 
@@ -193,3 +203,5 @@ Generate a detailed pipeline blueprint:
 - Workflows involving PII must include data retention and access control considerations
 - Recommend starting with a **pilot workflow** (lowest risk, highest frequency) before scaling
 - Provide rollback strategies: every agentic workflow should have a manual fallback
+
+*GitHub: https://github.com/gechengling/agentic-workflow-designer*
