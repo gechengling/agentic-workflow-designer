@@ -9,7 +9,7 @@ description: >
   AI pipeline, autonomous agent, process automation, workflow design, ROI calculator,
   HITL, 工作流设计, 流程自动化, 智能体工作流, 企业自动化, n8n工作流, 流程优化,
   自主代理, RPA替代.
-version: "3.2.0"
+version: "3.3.1"
 ---
 
 # Agentic Workflow Designer
